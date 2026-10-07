@@ -232,7 +232,8 @@ button[disabled] { opacity: .7; cursor: progress; }
 
 /* Footer */
 .site-footer { background: #050505; border-top: 1px solid rgba(212,175,55,.3); padding: 2.25rem 0 5.5rem; text-align: center; color: var(--grey); font-size: .9rem; }
-.footer-brand { margin: 0 0 1rem; font-size: 2.4rem; }
+.footer-brand { margin: 0 0 1.5rem; background: none; }
+.footer-brand img { display: block; width: 220px; max-width: 70%; height: auto; margin: 0 auto; }
 .privacy { max-width: 680px; margin: 0 auto 1rem; }
 .privacy h2 { font-family: var(--font-head); font-size: 1.4rem; color: var(--off-white); margin-bottom: .25rem; }
 .privacy p { margin: 0; }
